@@ -1,0 +1,78 @@
+*{
+    text-decoration: none;
+}
+
+a{
+    color: black;
+}
+
+ul li{
+    margin: 0 15px;
+    float: left;
+    list-style-type: disc;
+}
+
+.map{
+    overflow: hidden;
+}
+
+.map__image{
+    width: 50%;
+    float: left;
+}
+
+/* Taille de la carte */
+.map__image svg{
+    width: 100%;
+    height: 500px;
+}
+
+/* Style de la carte */
+.map__image path{
+    fill: #e1cdaa;
+    stroke: #FFF;
+    stroke-width: 1px;
+    transition: fill 0.3s;
+}
+
+.map__image .depV path{
+    fill: #9dc7d8;
+}
+
+.map__image .depM path{
+    fill: #cc9999;
+}
+
+/* Style de la carte survol d'un département */
+.map__image .is-active path{
+    fill: #70561bda;
+}
+.map__image .depV path:hover{
+    fill: #0098d4;
+}
+.map__image .depM path:hover{
+    fill: #cc0000;
+}
+
+/* Style de la liste des départements */
+.map__list{
+    float: right;
+    width: 50%;
+}
+.map__list a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.map__list .deplistV{
+    color: #0098d4;
+}
+.map__list .deplistM{
+    color: #cc0000;
+}
+/* Style de la carte survol d'une lien */
+.map__list a.is-active{
+    color: #70561b;
+    font-weight: bold;
+    text-decoration: underline;
+}

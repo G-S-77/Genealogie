@@ -1,0 +1,16 @@
+#Main {
+    position: relative;
+    width: 1750px;
+    height: 600px;
+}
+
+#Main.canMove {
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    cursor: grab;
+}
+#Main.inMove {
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+}

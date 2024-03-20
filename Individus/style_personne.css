@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+
+*{
+    border: 0;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+    text-decoration: none;
+}
+
+body{
+    padding-left: 1.5em;
+    background: url(../background.png);
+    background-repeat: no-repeat;
+    background-size: 150em;
+}
+button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+h1::selection, h3::selection, p::selection, a::selection, b::selection, i::selection{
+    background-color: #cab284;
+}
+
+/* Arbre généalogique */
+.nomobile{
+    padding-top: 5em;
+    padding-left: 18em;
+    
+}
+.nomobile td::selection{
+    background-color: transparent;
+}
+.modele-familytree a{
+    color: #70561b;
+    font-family: normal;
+}
+.modele-familytree {
+    background-color: #e1d3bbdc;
+    border-collapse: collapse;
+}
+h1{
+    color: #282828;
+    font-family: 'Cinzel', serif;
+    font-weight: 600;
+    font-size: 2.2em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    
+}
+h2{
+    margin-top:-0.75em;
+    padding-bottom: 1em;
+}
+hr{
+    border-top: 2px solid #282828;
+}
+a{
+    color: #70561b;
+}
+h3 {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-top: -15px;
+}
+p {
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 300;
+    position: absolute;
+    top: 37em;
+    left: 70vh;
+    margin-top: 1em;
+    font-size: 1.1em;
+}
+h5{
+    padding-top: 1em;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+h6{
+    font-size: 1.2em;
+    font-weight: 200;
+}
+/* Card */
+.card {
+    position: relative;
+    padding-bottom: 150%;
+    box-shadow: 0 0 10px black;
+}
+.card-background {
+    background-color: #f0debe;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 0; top: 0; right: 0; bottom: 0;
+}
+.card-content {
+    position: absolute;
+    padding: 24px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+.card-content h4 {
+    padding-left: 0;
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    text-align: left;
+}
+.card-content td {
+    padding-top: 0.5em;
+    line-height: 1.5;
+}
+.parent{
+    font-weight: bold;
+}
+.th{
+    background-color: #e1cdaa;
+    margin-top: -0.64em;
+    margin-left: -1.6em;
+    height: 3.5em;
+    width: 18.73em;
+    z-index: -1;
+}
+.espace{
+    padding-bottom: 0.5em;
+}
+
+/* Bouton pour retourner vers le haut */
+.btn{
+    height: 50px;
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+}
+.icone{
+    width: 25px;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+*{
+    border: 0;
+	font: normal normal normal 100% inherit;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins';
+    
+}
+
+body{
+    background: url(background.png);
+    background-repeat: repeat;
+    background-size: 80em;
+}
+h1{
+    margin: 10px 10px 0;
+    color: rgb(40, 40, 40);
+    font-family: 'Cinzel', serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+hr{
+    border-top: 1.5px solid #282828;
+    width: 1750px;
+}
+.modele-familytree a{
+    color: #70561b;
+    font-family: normal;
+}
+.modele-familytree {
+    background-color: #e1d3bbdc;
+    border-collapse: collapse;
+}
