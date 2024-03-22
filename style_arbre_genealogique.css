@@ -42,3 +42,8 @@ h1::selection, h3::selection, p::selection, a::selection, b::selection, i::selec
 .nomobile td::selection{
     background-color: transparent;
 }
+@media (min-width:600px) and (max-width:1600px){
+    header, hr{
+        width: 1750px;
+    }
+}
