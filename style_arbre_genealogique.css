@@ -26,7 +26,7 @@ h1{
 }
 hr{
     border-top: 1.5px solid #282828;
-    width: 100%;
+    width: 1000%;
 }
 .modele-familytree a{
     color: #70561b;
@@ -35,4 +35,10 @@ hr{
 .modele-familytree {
     background-color: #e1d3bbdc;
     border-collapse: collapse;
+}
+h1::selection, h3::selection, p::selection, a::selection, b::selection, i::selection{
+    background-color: #cab284;
+}
+.nomobile td::selection{
+    background-color: transparent;
 }
