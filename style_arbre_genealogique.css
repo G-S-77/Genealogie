@@ -2,14 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
 *{
     border: 0;
-	font: normal normal normal 100% inherit;
 	margin: 0;
 	padding: 0;
-	box-sizing: inherit;
+	box-sizing: border-box;
     list-style: none;
     text-decoration: none;
     font-family: 'Poppins';
-    
 }
 
 body{
@@ -17,6 +15,7 @@ body{
     background-repeat: repeat;
     background-size: 80em;
 }
+
 h1{
     margin: 10px 10px 0;
     color: rgb(40, 40, 40);
@@ -26,9 +25,10 @@ h1{
 }
 hr{
     border-top: 1.5px solid #282828;
-    width: 1000%;
+    width: 1750px;
 }
 .modele-familytree a{
+    display: block;
     color: #70561b;
     font-family: normal;
 }
@@ -42,6 +42,7 @@ h1::selection, h3::selection, p::selection, a::selection, b::selection, i::selec
 .nomobile td::selection{
     background-color: transparent;
 }
+
 @media (min-width:600px) and (max-width:1600px){
     header, hr{
         width: 1750px;
