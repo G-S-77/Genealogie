@@ -21,7 +21,7 @@ button{
     outline: none;
     cursor: pointer;
 }
-h1::selection, h3::selection, p::selection, a::selection, b::selection, i::selection{
+h1::selection, h2::selection, h3::selection, h4::selection, p::selection, a::selection, b::selection, i::selection, small::selection, th::selection, td::selection{
     background-color: #cab284;
 }
 
